@@ -1,0 +1,32 @@
+{
+  "name": "pocqueue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valentinb-sixense/pocqueue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valentinb-sixense/pocqueue/issues"
+  },
+  "homepage": "https://github.com/valentinb-sixense/pocqueue#readme",
+  "devDependencies": {
+    "@types/node": "^16.10.5",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.2"
+  },
+  "dependencies": {
+    "@azure/service-bus": "^7.3.0",
+    "typescript": "^4.4.4"
+  }
+}
